@@ -34,7 +34,7 @@
 #include <time.h>
 #include <errno.h>
 
-int   SOCKS_PORT  = 9050;
+int   SOCKS_PORT  = 1080;
 char *SOCKS_ADDR  = { "127.0.0.1" };
 int   LISTEN_PORT = 53;
 char *LISTEN_ADDR = { "0.0.0.0" };
@@ -43,7 +43,7 @@ FILE *LOG_FILE;
 char *RESOLVCONF = "resolv.conf";
 char *LOGFILE = "/dev/null";
 char *USERNAME = "nobody";
-char *GROUPNAME = "nobody";
+char *GROUPNAME = "nogroup";
 int NUM_DNS = 0;
 int LOG = 0;
 char **dns_servers;
